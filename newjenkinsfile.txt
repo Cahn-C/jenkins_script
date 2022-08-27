@@ -1,0 +1,22 @@
+pipeline {
+	agent any
+	stages {
+		stage('Build') {
+			steps {
+				echo "Build pipeline complete"
+			}
+		}
+		
+		stage('Deploy') {
+			steps {
+				echo "Deploy pipeline complete"
+			}
+		}
+		
+		stage('Release') {
+			steps {
+				echo "Release pipeline complete"
+			}
+		}
+	}
+}
